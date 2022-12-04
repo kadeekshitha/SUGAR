@@ -13,10 +13,29 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="sugarrough.js"></script>
+
+        <style>
+            body{
+                background-color: #000000;
+            }
+            .mydark{
+                background-color:#ffffff;
+            }
+
+        </style>
+        <script>
+            let changeMode = () =>{
+                let mybody = document.body;
+                mybody.classList.toggle('mydark')
+                
+            }
+        </script>
+
+
     </head>
 
 
-    <body>
+    <body id="moveit1233">
 
         <!--for coupon--outer main div-->
         <div id = "opac">
@@ -86,7 +105,10 @@
                     </div>
 
                 </div>
-                <div class="h2empty"></div>
+                <div class="h2empty">
+                    <button class="lightDARK" onclick="changeMode()"><i class="fa-solid fa-moon text-black"></i></button>
+                    
+                </div>
                 <div class="h2LR">
                     <div class="h2LRtext">
                         <a href="#">
@@ -611,7 +633,7 @@
             </div>
 
 
-            <div class="container" style="background-color:black; color:white"> 
+            <div id ="yolo" class="container" style="background-color:black; color:white"> 
 
 
                 <div class="ftwo">
