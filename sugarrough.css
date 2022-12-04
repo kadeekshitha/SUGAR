@@ -1,6 +1,11 @@
 body{
     margin: auto;
-    
+}
+
+#moveit1233{
+    width: 90%;
+    margin-left: 5%;
+    margin-left: 5%;
 }
 
 
@@ -143,6 +148,14 @@ body{
     float: left;
     background-color: black;
     
+}
+
+.lightDARK{
+    height: 70%;
+    width: 85%;
+    margin-top: 7%;
+    margin-left: 13%;
+    font-size: 20px;
 }
 
 .h2LR{
@@ -442,6 +455,10 @@ footer{
     border: 0px solid rgb(0, 0, 0);
 }
 
+#yolo{
+    width: 1137px;
+}
+
 
 .ftwo{
     height: 50px;
@@ -534,7 +551,7 @@ footer{
     margin-left: 15%;
     position: absolute;
     z-index: 100;
-    margin-top: -208.8%;
+    margin-top: -212.8%;
     visibility: hidden;
     background-image: url(https://d32baadbbpueqt.cloudfront.net/Homepage/f190c764-84cf-4eea-a381-8b701be65852.gif);
     background-repeat: no-repeat;
@@ -548,14 +565,13 @@ footer{
 
 
 #nope{
-    height:52px;
-    width:100%;
+    height: 52px;
+    width: 100%;
     border: 1px solid black;
-    background-color: black;
 }
 
 .yep{
-    background-color: #818181;
+    background-color: black;
     color: white;
     height: 50px;
     width: 200px;
@@ -618,7 +634,7 @@ footer{
 .weaTemp1 {
     color: white;
     border: 1px solid black;
-    margin-left: 553.5px;
+    margin-left: 524.5px;
     margin-top: -50px;
     /* width: 112px; */
     background-color: black;
@@ -630,7 +646,7 @@ footer{
 .weather1{
     color: white;
     border: 1px solid black;
-    margin-left: 906px;
+    margin-left: 818px;
     margin-top: -50px;
     /* width: 112px; */
     background-color: black;
